@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap);
+body{
+    background-image: url("../assets/bgHead.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+}
+
+span{
+    color: red;
+    font-weight: 500;
+}
+.header-container{
+    display: flex;
+}
+.header-cont{
+    margin: 100px 0px 0px 150px;
+    position: absolute;
+}
+.header-cont h1{
+    font-size: 4rem;
+    font-family: Volkhov;
+    margin: 20px 0px;
+}
+.girl img{
+    position: absolute;
+    right: 25px;
+}
+.buttons > .btn{
+    background-color: #F1A501;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: -30px;
+}
+.buttons img{
+    cursor: pointer;
+}
+.plane1 {
+    left: 45%;
+}
+.plane2 {
+    top: 40%;
+    left: 90%;
+}

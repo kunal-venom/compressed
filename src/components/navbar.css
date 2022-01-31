@@ -1,0 +1,28 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 25px 0px 0px 50px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.nav-links li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+    font-weight: 400;
+    margin: 35px 35px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-links button{
+    color: black;
+    border: 1px solid black;
+}
+.nav-links select{
+    border: none;
+    background-color: inherit;
+}
